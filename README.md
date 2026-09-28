@@ -2,11 +2,11 @@
 
 Open the single `.cc.html` file sent to you. If you need the viewer, use the install button in that document or download **[CloseCrateSetup.exe](https://github.com/AlexiAxAxA/close-crate/releases/download/v0.0.1-preview.20260928/CloseCrateSetup.exe)**.
 
-Run the installer and click **Install**. Return to your HTML document and click **Open**. No ZIP extraction or command scripts. Install only once; recipient codes are sent separately by the author.
+Run the viewer installer, choose its installation folder and click **Install**. Click **Open document** to select the received `.cc` / `.cc.html`, or return to your HTML document and click **Open**. The viewer shortcut opens a document picker; it does not open the author/encryption screen. No ZIP extraction or command scripts. Install only once; recipient codes are sent separately by the author.
 
 ## По-русски
 
-Отправитель присылает **один `.cc.html`**. Откройте его в браузере. Если просмотрщик ещё не установлен, нажмите «Установить просмотрщик», запустите скачанный **CloseCrateSetup.exe** и нажмите «Установить». Вернитесь к HTML и нажмите «Открыть».
+Отправитель присылает **один `.cc.html`**. Откройте его в браузере. Если просмотрщик ещё не установлен, нажмите «Установить просмотрщик», запустите скачанный **CloseCrateSetup.exe** выберите папку и нажмите «Установить». Затем нажмите «Открыть документ…» и выберите присланный `.cc` / `.cc.html`, либо вернитесь к HTML и нажмите «Открыть». Ярлык «Close Crate — просмотрщик» открывает выбор документа, без экрана шифрования.
 
 Установка нужна один раз. Никаких ZIP и CMD в этом процессе. Код доступа отправитель передаёт отдельно.
 
