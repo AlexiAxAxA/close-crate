@@ -1,25 +1,19 @@
 # Close Crate for Windows
 
-Native viewer for protected `.cc` documents. This repository distributes Windows installers; it does not contain the private product source tree.
+Open the single `.cc.html` file sent to you. If you need the viewer, use the install button in that document or download **[CloseCrateSetup.exe](https://github.com/AlexiAxAxA/close-crate/releases/download/v0.0.1-preview.20260928/CloseCrateSetup.exe)**.
 
-## Install once
+Run the installer and click **Install**. Return to your HTML document and click **Open**. No ZIP extraction or command scripts. Install only once; recipient codes are sent separately by the author.
 
-1. Download the Windows x64 ZIP from [Releases](https://github.com/AlexiAxAxA/close-crate/releases).
-2. Extract the whole archive and run `Установить.cmd`.
-3. Open a `.cc` file. If Windows asks, choose **Close Crate** and **Always**.
-4. Enter the recipient code sent separately by the author, or request access in the viewer.
+## По-русски
 
-HTML envelopes are optional. The package includes the PDF renderer and third-party license notices. Installation is per-user and does not require administrator rights. Device keys are preserved on uninstall.
+Отправитель присылает **один `.cc.html`**. Откройте его в браузере. Если просмотрщик ещё не установлен, нажмите «Установить просмотрщик», запустите скачанный **CloseCrateSetup.exe** и нажмите «Установить». Вернитесь к HTML и нажмите «Открыть».
 
-## Preview limitations
+Установка нужна один раз. Никаких ZIP и CMD в этом процессе. Код доступа отправитель передаёт отдельно.
 
-This is a preview build. Executables are not Authenticode-signed, so Windows may show a publisher/SmartScreen warning. SHA256 checks detect download corruption; they do not constitute a publisher signature. Do not disable Windows security controls.
+## Preview
 
-Access requires the author's configured authority to be reachable, subject to the document's offline policy. An author-local `127.0.0.1` address is not reachable from a different computer. Revocation does not erase ordinary copies already exported by a recipient.
+Windows x64, .NET Framework 4.5 or later (included in supported Windows 10/11 installations). This is a binary distribution repository, not the private product source tree. PDF support and third-party license notices are included.
 
-## Установка
+The preview installer is not Authenticode-signed; Windows may show a publisher/SmartScreen warning. SHA256SUMS verifies download integrity, not publisher identity. Do not disable Windows security controls. Installation is per-user and preserves existing device keys.
 
-Скачайте ZIP из Releases, распакуйте целиком и запустите «Установить.cmd».
-Дальше открывайте `.cc` двойным щелчком; при первом выборе укажите Close Crate
-и «Всегда». Код получателя автор передаёт отдельно от файла. HTML не требуется.
-Пакет предварительный, без подписи Authenticode. Ключи не удаляются при удалении программы.
+Access requires the author's authority to be reachable, subject to the offline policy. An author-local 127.0.0.1 address is not reachable from another computer. A clean second-machine test of this build remains outstanding.
