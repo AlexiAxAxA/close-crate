@@ -17,3 +17,8 @@ Windows x64, .NET Framework 4.5 or later (included in supported Windows 10/11 in
 The preview installer is not Authenticode-signed; Windows may show a publisher/SmartScreen warning. SHA256SUMS verifies download integrity, not publisher identity. Do not disable Windows security controls. Installation is per-user and preserves existing device keys.
 
 Access requires the author's authority to be reachable, subject to the offline policy. An author-local 127.0.0.1 address is not reachable from another computer. A clean second-machine test of this build remains outstanding.
+
+
+## Rust libraries
+
+The coordinated Rust library release is 0.0.7. Use [OpenCrateSDK](https://crates.io/crates/opencrate-sdk/0.0.7) for application data, or the [Open Crate facade and five core crates](https://github.com/AlexiAxAxA/OpenCrate) for document-format, cryptographic, protocol, policy and assembly APIs.
